@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#header-nav
+{
+  background-color: #30c352;
+  border-radius: 0;
+  border:0;
+}
+.navbar-brand h1
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: .75;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+h1 > span
+{
+  color: orange;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus 
+{
+  text-decoration: none;
+
+}
+#toggle-button
+{
+  background-color: white;
+  border:1px solid black;
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-collapse
+{
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-list a 
+{
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background-color: #30c352;
+}
+
+@media(max-width: 767px) 
+{
+  .navbar-brand h1
+  {
+    padding-left: 3px;
+  }
+}
+
+.box
+{
+  background-color: #f1f8ff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 20px;
+}
+
+@media(max-width: 785px) 
+{
+  .box
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+.img
+{
+  width: 250px;
+  height:250px;
+  border:2px solid #30c352;
+  cursor: pointer;
+}
+h3
+{
+  font-size: 25px;
+}
+.para
+{
+  text-align: justify;
+  padding: 20px;
+  font-size: 15px;
+}
+
+p > a
+{
+  font-weight: bold;
+  color:red;
+  font-size: 18px;
+}
+
+p> a:hover
+{
+  text-decoration: none;
+  color:red;
+
+}
